@@ -226,6 +226,9 @@ for enhancement in $ENHANCEMENTS; do
     "avi")
       proc_script="noaa_avi.sh"
       ;;
+    "apt")
+      proc_script="noaa_apt.sh"
+      ;;
   esac
 
   if [ -z "${proc_script}" ]; then
